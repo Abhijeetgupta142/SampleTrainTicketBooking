@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+    <servlet-name>HomeServlet</servlet-name>
+    <servlet-class>test.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeServlet</servlet-name>
+    <url-pattern>/log</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>AdminLoginServlet</servlet-name>
+  	<servlet-class>test.AdminLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AdminLoginServlet</servlet-name>
+  	<url-pattern>/log1</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewTrainServlet</servlet-name>
+    <servlet-class>test.ViewTrainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewTrainServlet</servlet-name>
+    <url-pattern>/view</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  <servlet-name>AddTrainServlet</servlet-name>
+  <servlet-class>test.AddTrainServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>AddTrainServlet</servlet-name>
+  <url-pattern>/train</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>UpdateTrainServlet</servlet-name>
+  <servlet-class>test.UpdateTrainServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>UpdateTrainServlet</servlet-name>
+  <url-pattern>/update</url-pattern>
+</servlet-mapping>
+<servlet>
+  <servlet-name>RegServlet1</servlet-name>
+  <servlet-class>test.RegServlet1</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>RegServlet1</servlet-name>
+  <url-pattern>/reg1</url-pattern>
+</servlet-mapping>
+  <servlet>
+    <servlet-name>RegServlet2</servlet-name>
+    <servlet-class>test.RegServlet2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegServlet2</servlet-name>
+    <url-pattern>/reg2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>ViewDetailsServlet</servlet-name>
+    <servlet-class>test.ViewDetailsServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewDetailsServlet</servlet-name>
+    <url-pattern>/vdetails</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FinalRegServlet</servlet-name>
+    <servlet-class>test.FinalRegServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FinalRegServlet</servlet-name>
+    <url-pattern>/reg</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <servlet-class>test.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserLoginServlet</servlet-name>
+    <url-pattern>/log2</url-pattern>
+  </servlet-mapping>
+<servlet>
+  <servlet-name>ViewTrainServlet2</servlet-name>
+  <servlet-class>test.ViewTrainServlet2</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>ViewTrainServlet2</servlet-name>
+  <url-pattern>/view1</url-pattern>
+</servlet-mapping>
+  <servlet>
+    <servlet-name>SelectedTrainServlet</servlet-name>
+    <servlet-class>test.SelectedTrainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectedTrainServlet</servlet-name>
+    <url-pattern>/select</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>test.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>Login.html</welcome-file>
+  </welcome-file-list>
+</web-app>
